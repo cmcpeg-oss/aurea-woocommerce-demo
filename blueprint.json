@@ -14,10 +14,17 @@
       }
     },
     {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/plugins"
+    },
+    {
       "step": "installPlugin",
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
       }
     }
   ]
