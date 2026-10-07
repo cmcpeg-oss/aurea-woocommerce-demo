@@ -18,8 +18,7 @@
       "pluginData": {
         "resource": "wordpress.org/plugins",
         "slug": "woocommerce"
-      },
-      "activate": true
+      }
     }
   ]
 }
