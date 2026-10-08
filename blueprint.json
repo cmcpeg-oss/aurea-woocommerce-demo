@@ -12,6 +12,26 @@
         "resource": "url",
         "url": "https://raw.githubusercontent.com/cmcpeg-oss/aurea-woocommerce-demo/main/site.zip"
       }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "mailpoet"
+      },
+      "options": {
+        "activate": true
+      }
     }
   ]
 }
